@@ -1,0 +1,4 @@
+<h4>
+  <% prefix = variant.is_sample ? "[#{t(:sample)}] " : '' %>
+  <%= link_to prefix + variant.product.name , product_path(variant.product) %>  
+</h4>

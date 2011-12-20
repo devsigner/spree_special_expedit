@@ -1,0 +1,7 @@
+ /
+<% if @product.sell_mode == nil %>
+  Mode de vente non défini !
+<% else %>
+  <%= {'M' => t(:sell_mode_square), 'U' => t(:sell_mode_unit)}[@product.sell_mode] %>
+<% end %>
+

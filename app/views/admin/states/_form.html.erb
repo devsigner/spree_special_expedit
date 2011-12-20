@@ -1,0 +1,19 @@
+<%= f.field_container :name do %>
+  <%= f.label :name, t(:name) %><br />
+  <%= f.text_field :name %>
+<% end %>
+
+<%= f.field_container :abbr do %>
+  <%= f.label :abbr, t(:abbreviation) %><br />
+  <%= f.text_field :abbr %>
+<% end %>
+
+<%= f.field_container :shipping_cost do %>
+  <%= f.label :shipping_cost, t(:palet_shipping_cost) %><br />
+  <%= f.text_field :shipping_cost %>
+<% end %>
+
+<%= f.field_container :shipping_deps do %>
+  <%= f.label :shipping_deps, t(:palet_shipping_deps) %><br />
+  <%= f.text_field :shipping_deps %>
+<% end %>

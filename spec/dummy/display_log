@@ -1,0 +1,1 @@
+tail -f log/test.log | grep -vE "(^\s*$|asset|RailsDevTweaks)"

@@ -1,0 +1,11 @@
+<p>
+  <%= label_tag(:is_sample, t(:sample)) %>
+  <br/>
+  <%= t(:yes) %><%= f.radio_button(:has_sample, true) %>
+  <%= t(:no) %><%= f.radio_button(:has_sample, false) %>  
+</p>
+<p>
+  <%= label_tag(:sell_mode, t(:sell_mode)) %>
+  <br/>
+  <%= f.select :sell_mode, {t(:sell_mode_unit) => 'U', t(:sell_mode_square) => 'M'} %>
+</p>

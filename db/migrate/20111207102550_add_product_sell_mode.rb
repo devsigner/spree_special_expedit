@@ -1,0 +1,11 @@
+class AddProductSellMode < ActiveRecord::Migration
+  def up
+    change_table :products do |t|
+      t.string :sell_mode, :limit => 2, :default => 'M'
+    end
+  end
+
+  def down
+    remove_column :products, :sell_mode
+  end
+end
