@@ -2,6 +2,7 @@ INSTALLATION
 ============
 
 Dans le répertoire de l'application Spree dans laquelle cette gem sera utilisée
+
 - Editer le fichier Gemfile et ajouter gem 'spree_shoppierre', :path => 'vers la gem' (ou source vers le repository git)
 - bundle install
 - rake spree_shoppierre:install:migrations
