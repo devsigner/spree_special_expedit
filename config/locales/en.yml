@@ -2,19 +2,19 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  yes: Oui
-  no: Non
-  sample: "Echantillon"
-  sample_default_weight: Poids d'un échantillon
-  add_sample_to_cart_button: Ajouter un échantillon au panier
+  yes: Yes
+  no: No
+  sample: "Sample"
+  sample_default_weight: Weight of a sample
+  add_sample_to_cart_button: Add sample to cart
   edit_myshop_settings: Modification de la configuration de la boutique
-  myshop_settings: Configuration de la boutique  
-  sell_mode: Mode de vente
-  sell_mode_unit: Pièce
+  myshop_settings: Changing the configuration of the store  
+  sell_mode: Type of sale
+  sell_mode_unit: Unit
   sell_mode_square: M²
-  palet_shipping_cost: Frais d'envois par palette
-  palet_shipping_deps: Départements (séparés par un espace)
-  maximum_postal_weight: "Poids maxi d'un envoi postal"
-  weight_per_palet: "Poids maxi d'une palette"
-  postal_base_cost: "Coût de base d'un envoi postal"
-  postal_weight_cost: "Coût par kilo supplémentaire d'un envoi postal"
+  palet_shipping_cost: Shipping costs per pallet
+  palet_shipping_deps: States (separated by a space)
+  maximum_postal_weight: "Maximum weight of a postal"
+  weight_per_palet: "Maximum weight of a pallet"
+  postal_base_cost: "Base cost of a postal"
+  postal_weight_cost: "Cost per kilo of a postal"
