@@ -1,4 +1,4 @@
-<% if @product.has_sample && current_order != nil && current_order.line_items.select{|li| li.variant.id == @product.sample.id}.size == 0 %>
+<% if @product.has_sample && !(current_order && current_order.line_items.select{|li| li.variant.product == @product}.size != 0) %>
   <%= form_for :order, :url => populate_orders_url do |f| %>
     <%= hidden_field_tag "products[#{@product.id}]", @product.sample.id %>
     <%= hidden_field_tag "quantity", 1 %>
