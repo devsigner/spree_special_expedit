@@ -12,7 +12,8 @@ class Calculator::Special < Calculator
     "Envoi colis ou palette"
   end
 
-  def compute(order)    
+  def compute(object)    
+    order = object.is_a?(Shipment) ? object.order : object
     total_cost = 0
     total_weight = 0
     
@@ -24,9 +25,9 @@ class Calculator::Special < Calculator
       total_weight += w * line_item.quantity   
     end
     
-    if total_weight < self.preferred_maximum_postal_weight
+    if total_weight <= self.preferred_maximum_postal_weight
       total_cost = self.preferred_postal_base_cost + total_weight * self.preferred_postal_weight_cost
-    else      
+    else
       dep = order.ship_address.zipcode[0..1] 
       palet_shipping_cost = nil    
       states.each do |st| 
