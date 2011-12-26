@@ -12,7 +12,7 @@ class Calculator::Special < Calculator
     "Envoi colis ou palette"
   end
 
-  def compute(object)    
+  def compute(object) 
     order = object.is_a?(Shipment) ? object.order : object
     total_cost = 0
     total_weight = 0

@@ -16,7 +16,7 @@ module SpreeShoppierre
 
       Dir.glob(File.join(File.dirname(__FILE__), "../../app/overrides/*.rb")) do |c|
         Rails.application.config.cache_classes ? require(c) : load(c)
-      end
+      end      
       Calculator::Special.register
       begin
       Spree::Config.set(:address_requires_state => false)
@@ -25,13 +25,6 @@ module SpreeShoppierre
     end
     
     config.to_prepare &method(:activate).to_proc
-
-    #      initializer "spree_paypal_express.register.payment_methods" do |app|
-    #      app.config.spree.payment_methods += [
-    #        BillingIntegration::PaypalExpress,
-    #        BillingIntegration::PaypalExpressUk
-    #      ]
-    
     config.after_initialize do |app|
       app.config.spree.calculators.shipping_methods += [
         Calculator::Special
