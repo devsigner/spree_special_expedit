@@ -1,7 +1,7 @@
 Product.class_eval do
-   
+
   before_save :update_sample
-  
+
   def update_sample
     already = self.has_sample
     if @has_sample == 'true' && !already
@@ -10,21 +10,21 @@ Product.class_eval do
       self.variants.where(:is_sample => true).first.destroy
     end
   end
-  
+
   def has_sample=(value)
     @has_sample = value
   end
-  
+
   def has_sample
-    self.sample != nil 
+    self.sample != nil
   end
-  
+
   def sample
     self.variants.where(:is_sample => true).first
   end
-  
+
   def has_variants?
-    variants.any? && !has_sample # On ne considère pas l'échantillon comme une variante - Ainsi dans la fiche pas de variantes parasites
+    variants.any? && !!variants.find{|v| not v.is_sample} # On ne considère pas l'échantillon comme une variante - Ainsi dans la fiche pas de variantes parasites
   end
-  
+
 end
