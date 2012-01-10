@@ -1,6 +1,7 @@
 <td data-hook="cart_item_quantity">
   <% if variant.is_sample %>
     <%= item_form.hidden_field :quantity, :size => 3, :class => "line_item_quantity" %>
+    1
   <% else %>
     <%= item_form.text_field :quantity, :size => 3, :class => "line_item_quantity" %>
   <% end %>
