@@ -1,7 +1,7 @@
 Deface::Override.new(
   :name => "product_ask_sample_button",
   :virtual_path => "products/show",
-  :insert_after => "div#cart-form",
+  :insert_after => "div#thumbnails",
   :partial  => '../views/overrides/product_ask_sample_button',
   :disabled => false
 )
