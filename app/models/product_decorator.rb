@@ -28,7 +28,7 @@ Product.class_eval do
   end
 
   def sell_mode_to_s
-    {'M' => "/ #{t(:sell_mode_square)}", 'U' => "/ #{t(:sell_mode_unit)}" }[self.sell_mode] if self.sell_mode.present?
+    {'M' => "/ #{I18n.t(:sell_mode_square)}", 'U' => "/ #{I18n.t(:sell_mode_unit)}" }[self.sell_mode] if self.sell_mode.present?
   end
 
 end
