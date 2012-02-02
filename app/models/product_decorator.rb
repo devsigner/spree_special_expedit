@@ -27,4 +27,8 @@ Product.class_eval do
     variants.any? && !!variants.find{|v| not v.is_sample} # On ne considère pas l'échantillon comme une variante - Ainsi dans la fiche pas de variantes parasites
   end
 
+  def sell_mode_to_s
+    {'M' => "/ #{t(:sell_mode_square)}", 'U' => "/ #{t(:sell_mode_unit)}" }[self.sell_mode] if self.sell_mode.present?
+  end
+
 end
