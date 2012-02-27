@@ -16,4 +16,11 @@ namespace :spree_shoppierre do
       puts deps.join(',')
     end
   end
+  
+  desc "Remonte le stock de tous les échantillons à sa valeur nominale"
+  task :set_samples_stock => :environment do
+    Variant.where(:is_sample => true).each do |v|
+      v.update_attributes!(:count_on_hand => 1000000)
+    end
+  end
 end

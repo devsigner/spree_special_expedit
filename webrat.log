@@ -12699,3 +12699,184 @@ REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Contin
 REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
 REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
 REQUESTING PAGE: GET http://www.example.com/orders/R463242484/token/107037eabc5f4c7f with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-1-9178 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"1"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-1-9178"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R032487218/token/e90b13897ae13a57 with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-7-8694 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"4"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-7-8694"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R833480588/token/ccb051961656a05f with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-12-8861 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"4"=>"6"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-12-8861"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /products/product-number-10-9824 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"2"=>"3"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-10-9824"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R748847535/token/fec20580c93dcdfe with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-1-9178 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"1"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-1-9178"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R032487218/token/742b79bb64ac7f57 with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-1-9178 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"1"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-1-9178"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R032487218/token/c6ebe2e322f1c58b with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-7-8694 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"4"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-7-8694"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R833480588/token/df1236986d52f436 with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-12-8861 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"4"=>"6"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-12-8861"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /products/product-number-10-9824 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"2"=>"3"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-10-9824"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R748847535/token/9fde6524a182af66 with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-1-9178 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"1"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-1-9178"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R032487218/token/9c786c4b9a0934fd with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-7-8694 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"4"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-7-8694"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R833480588/token/1df8ea49e771a724 with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-12-8861 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"4"=>"6"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-12-8861"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /products/product-number-10-9824 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"2"=>"3"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-10-9824"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R748847535/token/b104fe0519d2737a with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-1-6970 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"1"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-1-6970"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R332275287/token/d2a0844054eaf3df with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-7-5357 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"utf8"=>"✓", "variants"=>{"4"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-7-5357"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R588837272/token/a2b580c972ce3eef with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}
+REQUESTING PAGE: GET /products/product-number-12-1748 with {} and HTTP headers {}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"4"=>"6"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-12-1748"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /products/product-number-10-518 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: POST http://www.example.com/orders/populate with {"quantity"=>"1", "utf8"=>"✓", "products"=>{"2"=>"3"}} and HTTP headers {"HTTP_REFERER"=>"/products/product-number-10-518"}
+REQUESTING PAGE: GET http://www.example.com/cart with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/orders/populate"}
+REQUESTING PAGE: GET /checkout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/cart"}
+REQUESTING PAGE: GET http://www.example.com/checkout/registration with {} and HTTP headers {"HTTP_REFERER"=>"/checkout"}
+REQUESTING PAGE: POST /checkout/registration with {"commit"=>"Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"email"=>"guest@test.com"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/registration"}
+REQUESTING PAGE: GET http://www.example.com/checkout with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/registration"}
+REQUESTING PAGE: POST /checkout/update/address with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"bill_address_attributes"=>{"city"=>"9812, street foo", "address1"=>"9812, street foo", "address2"=>"", "zipcode"=>"33000", "country_id"=>"1", "lastname"=>"deer", "phone"=>"0505050505", "firstname"=>"john"}, "ship_address_attributes"=>{"city"=>"", "address1"=>"", "address2"=>"", "zipcode"=>"", "country_id"=>"1", "lastname"=>"", "phone"=>"", "firstname"=>""}, "use_billing"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout"}
+REQUESTING PAGE: GET http://www.example.com/checkout/delivery with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/address"}
+REQUESTING PAGE: POST /checkout/update/delivery with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"shipping_method_id"=>"1"}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/delivery"}
+REQUESTING PAGE: GET http://www.example.com/checkout/payment with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/delivery"}
+REQUESTING PAGE: POST /checkout/update/payment with {"commit"=>"Save and Continue", "_method"=>"put", "utf8"=>"✓", "order"=>{"payments_attributes"=>[{"payment_method_id"=>"1"}]}} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/checkout/payment"}
+REQUESTING PAGE: GET http://www.example.com/orders/R524355152/token/5ca8ef8ede936ffa with {} and HTTP headers {"HTTP_REFERER"=>"/checkout/update/payment"}

@@ -8,7 +8,6 @@ describe Variant do
 	end
   
   it "should not have a sample by default" do    
-    @product.variants.should == []
     @product.has_sample.should == false
   end
   
@@ -20,6 +19,7 @@ describe Variant do
     @product.reload
     @product.variants.size.should == 1    
     @product.variants[0].is_sample.should == true    
+    @product.variants[0].count_on_hand.should > 0
     @product.variants[0].weight.should == default_weight
   end
   
