@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class FixProblematicIndexNames < ActiveRecord::Migration
   def self.up
     begin

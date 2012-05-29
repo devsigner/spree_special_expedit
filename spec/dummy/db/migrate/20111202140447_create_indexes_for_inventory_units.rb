@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateIndexesForInventoryUnits < ActiveRecord::Migration
   def self.up
     add_index(:inventory_units, :variant_id)

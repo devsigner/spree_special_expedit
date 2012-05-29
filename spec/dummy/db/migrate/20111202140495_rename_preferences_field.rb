@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RenamePreferencesField < ActiveRecord::Migration
   def self.up
     rename_column(:preferences, :attribute, :name)

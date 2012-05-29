@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateProductsProductGroups < ActiveRecord::Migration
   def self.up
     create_table :product_groups_products, :id => false do |t|

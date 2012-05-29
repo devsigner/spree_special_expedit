@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PreventNilEmail < ActiveRecord::Migration
   def self.up
     execute("update orders set email = 'guest@example.com' where email is null")

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddDisplayToShippingMethods < ActiveRecord::Migration
   def self.up
     add_column :shipping_methods, :display_on, :string, :default => nil

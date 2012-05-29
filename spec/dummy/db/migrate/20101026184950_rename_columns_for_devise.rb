@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RenameColumnsForDevise < ActiveRecord::Migration
   def self.up
     return if column_exists?(:users, :password_salt)

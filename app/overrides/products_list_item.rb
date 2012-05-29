@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #Deface::Override.new(
   #:virtual_path => "shared/_products",
   #:insert_after => "[data-hook='products_list_item'] span.price",

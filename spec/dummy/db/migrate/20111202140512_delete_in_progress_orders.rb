@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class DeleteInProgressOrders < ActiveRecord::Migration
   def self.up
     Order.delete_all(:state=>'in_progress')

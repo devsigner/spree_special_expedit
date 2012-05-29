@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PopulateLegacyShipmentState < ActiveRecord::Migration
   # Hack to allow for legacy migrations
   class Shipment < ActiveRecord::Base

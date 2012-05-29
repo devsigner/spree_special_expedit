@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddCostPrice < ActiveRecord::Migration
   def self.up
     add_column :variants, :cost_price, :decimal, :null => true, :default => nil, :precision => 8, :scale => 2

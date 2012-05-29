@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 AppConfiguration.class_eval do
   
   preference :sample_default_weight, :float, :default => 1.0

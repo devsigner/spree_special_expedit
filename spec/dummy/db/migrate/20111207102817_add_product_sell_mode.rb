@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddProductSellMode < ActiveRecord::Migration
   def up
     change_table :products do |t|

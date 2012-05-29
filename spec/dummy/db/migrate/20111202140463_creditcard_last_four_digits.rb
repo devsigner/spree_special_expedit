@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreditcardLastFourDigits < ActiveRecord::Migration
 
   # Hack to allow for legacy migrations

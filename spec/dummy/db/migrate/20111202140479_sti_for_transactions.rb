@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class StiForTransactions < ActiveRecord::Migration
   def self.up
     rename_table "creditcard_txns", "transactions"

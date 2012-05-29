@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddNextStateToStateEvents < ActiveRecord::Migration
   def self.up
     add_column :state_events, :next_state, :string

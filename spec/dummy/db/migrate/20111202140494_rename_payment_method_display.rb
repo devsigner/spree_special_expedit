@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RenamePaymentMethodDisplay < ActiveRecord::Migration
   def self.up
     rename_column :payment_methods, :display, :display_on

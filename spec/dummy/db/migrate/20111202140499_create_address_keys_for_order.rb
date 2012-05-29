@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateAddressKeysForOrder < ActiveRecord::Migration
   def self.up
     change_table :orders do |t|

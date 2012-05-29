@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Transaction < ActiveRecord::Base; end
 class CreditcardTxn < Transaction; end
 

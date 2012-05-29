@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PaymentsStateAndAssignedToOrderOnly < ActiveRecord::Migration
   def self.up
     # TODO: migrate existing payments

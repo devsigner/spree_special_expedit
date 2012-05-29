@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MigrateCheckoutToOrders < ActiveRecord::Migration
 
   class Checkout < ActiveRecord::Base

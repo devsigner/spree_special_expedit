@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AlterVariants < ActiveRecord::Migration
   def up
     change_table :variants do |t|

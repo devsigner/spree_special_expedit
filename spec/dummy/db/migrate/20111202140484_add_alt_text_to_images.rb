@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddAltTextToImages < ActiveRecord::Migration
   def self.up
     add_column :assets, :alt, :text

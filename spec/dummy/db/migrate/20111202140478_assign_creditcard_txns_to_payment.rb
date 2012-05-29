@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AssignCreditcardTxnsToPayment < ActiveRecord::Migration
   def self.up
     add_column "creditcard_txns", "payment_id", :integer

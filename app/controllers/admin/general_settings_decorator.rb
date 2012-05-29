@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Admin::GeneralSettingsController.class_eval do
     
   def show

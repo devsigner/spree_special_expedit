@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddDefaultToTaxCategories < ActiveRecord::Migration
   def self.up
     add_column :tax_categories, :is_default, :boolean, :default => false

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class SpreeZeroNineZero < ActiveRecord::Migration
   # This is a legacy migration consolidating all of the database changes needed as of Spree 0.9.0
   # (See http://railsdog.lighthouseapp.com/projects/31096-spree/tickets/772)

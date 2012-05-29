@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Product.class_eval do
 
   before_save :update_sample

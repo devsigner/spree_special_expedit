@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ShippingMethodIdForCheckouts < ActiveRecord::Migration
   def self.up
     add_column "checkouts", "shipping_method_id", :integer

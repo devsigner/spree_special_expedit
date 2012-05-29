@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddTestModeToBillingIntegration < ActiveRecord::Migration
   def self.up
     add_column :billing_integrations, :test_mode, :boolean, :default => true

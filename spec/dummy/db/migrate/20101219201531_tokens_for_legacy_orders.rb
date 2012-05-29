@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class TokensForLegacyOrders < ActiveRecord::Migration
   def self.up
     # add token permissions for legacy orders (stop relying on user persistence token)

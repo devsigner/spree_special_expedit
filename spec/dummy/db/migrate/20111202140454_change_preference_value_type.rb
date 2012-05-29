@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ChangePreferenceValueType < ActiveRecord::Migration
   def self.up
     remove_index :preferences, :name => 'index_preferences_on_owner_and_attribute_and_preference'

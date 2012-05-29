@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RemoveNumberAndCvvFromCredicard < ActiveRecord::Migration
   def self.up
     remove_column :creditcards, :number

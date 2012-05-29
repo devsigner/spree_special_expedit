@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PolymorphicPayments < ActiveRecord::Migration
   def self.up
     remove_column :payments, :type

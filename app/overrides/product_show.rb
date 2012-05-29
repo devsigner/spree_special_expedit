@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Deface::Override.new(
   :name => "product_ask_sample_button",
   :virtual_path => "products/show",

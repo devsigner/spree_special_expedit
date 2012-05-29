@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateBillingIntegrations < ActiveRecord::Migration
   def self.up
     create_table :billing_integrations do |t|

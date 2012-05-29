@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MoveSpecialInstructionsToOrders < ActiveRecord::Migration
   def self.up
     add_column :orders, :special_instructions, :text

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class EligibleForAdjustments < ActiveRecord::Migration
   def self.up
     add_column :adjustments, :eligible, :boolean, :default => true

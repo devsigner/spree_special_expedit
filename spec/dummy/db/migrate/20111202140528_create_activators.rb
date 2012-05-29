@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateActivators < ActiveRecord::Migration
   def self.up
     create_table "activators", :force => true do |t|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SpreeShoppierre
   class Engine < Rails::Engine
     engine_name 'spree_shoppierre'

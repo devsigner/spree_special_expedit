@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Deface::Override.new(
   :virtual_path => "admin/states/edit",
   :insert_after => "h1",

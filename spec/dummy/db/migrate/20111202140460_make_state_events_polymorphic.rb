@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MakeStateEventsPolymorphic < ActiveRecord::Migration
   def self.up
     rename_column :state_events, :order_id, :stateful_id

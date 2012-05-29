@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateTokenizedPermissions < ActiveRecord::Migration
 
   def self.up

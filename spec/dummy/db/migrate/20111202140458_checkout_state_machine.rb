@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CheckoutStateMachine < ActiveRecord::Migration
   def self.up
     change_table :checkouts do |t|

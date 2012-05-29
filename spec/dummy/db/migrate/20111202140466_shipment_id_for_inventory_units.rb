@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ShipmentIdForInventoryUnits < ActiveRecord::Migration
   def self.up
     add_column "inventory_units", "shipment_id", :integer

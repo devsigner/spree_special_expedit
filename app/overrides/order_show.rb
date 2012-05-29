@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Deface::Override.new(
   :virtual_path => "orders/_line_item",
   :replace => "[data-hook='cart_item_description'] h4",

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateLogEntries < ActiveRecord::Migration
   def self.up
     create_table :log_entries do |t|

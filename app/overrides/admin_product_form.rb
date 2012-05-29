@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Deface::Override.new(
   :virtual_path => "admin/products/_form",
   :insert_bottom => "[data-hook='admin_product_form_right']",

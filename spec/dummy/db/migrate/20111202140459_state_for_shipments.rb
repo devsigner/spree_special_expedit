@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class StateForShipments < ActiveRecord::Migration
   def self.up
     add_column "shipments", "state", :string

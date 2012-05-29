@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CimFieldsForCreditcards < ActiveRecord::Migration
   def self.up
     add_column "creditcards", "gateway_customer_profile_id", :string

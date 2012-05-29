@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddIndexOnUsersPersistenceToken < ActiveRecord::Migration
   def self.up
     add_index :users, :persistence_token

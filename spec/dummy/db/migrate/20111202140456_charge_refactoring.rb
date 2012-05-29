@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ChargeRefactoring < ActiveRecord::Migration
 
   class Checkout < ActiveRecord::Base

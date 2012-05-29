@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class GenerateAnonymousUsers < ActiveRecord::Migration
   def self.up
     User.reset_column_information

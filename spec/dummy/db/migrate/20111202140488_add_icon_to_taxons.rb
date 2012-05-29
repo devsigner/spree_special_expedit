@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddIconToTaxons < ActiveRecord::Migration
     def self.up
       # skip this migration if the attribute already exists because of advanced taxon extension

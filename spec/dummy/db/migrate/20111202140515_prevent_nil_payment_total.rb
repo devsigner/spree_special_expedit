@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PreventNilPaymentTotal < ActiveRecord::Migration
   def self.up
     execute("update orders set payment_total = 0.0 where payment_total is null")

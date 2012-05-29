@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ConvertUserRememberField < ActiveRecord::Migration
   def self.up
     remove_column :users, :remember_created_at

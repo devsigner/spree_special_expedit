@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddAdjustmentsIndex < ActiveRecord::Migration
   def self.up
     add_index(:adjustments, :order_id)

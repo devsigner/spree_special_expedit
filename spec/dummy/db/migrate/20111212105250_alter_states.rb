@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AlterStates < ActiveRecord::Migration
   def up
     change_table :states do |t|

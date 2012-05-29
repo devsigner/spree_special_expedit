@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddReturnAuthorizationToInventoryUnits < ActiveRecord::Migration
   def self.up
     add_column :inventory_units, :return_authorization_id, :integer

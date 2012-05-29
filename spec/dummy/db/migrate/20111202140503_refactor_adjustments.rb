@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RefactorAdjustments < ActiveRecord::Migration
   def self.up
     change_table :adjustments do |t|

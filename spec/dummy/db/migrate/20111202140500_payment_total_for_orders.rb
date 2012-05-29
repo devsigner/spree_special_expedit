@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PaymentTotalForOrders < ActiveRecord::Migration
   def self.up
     add_column :orders, :payment_total, :decimal, :precision => 8, :scale => 2, :default => 0.0

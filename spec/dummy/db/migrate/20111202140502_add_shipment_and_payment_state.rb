@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddShipmentAndPaymentState < ActiveRecord::Migration
   def self.up
     change_table :orders do |t|

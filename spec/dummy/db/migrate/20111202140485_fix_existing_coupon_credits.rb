@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class FixExistingCouponCredits < ActiveRecord::Migration
   def self.up
     execute("UPDATE adjustments SET type='PromotionCredit' WHERE type='CouponCredit'")

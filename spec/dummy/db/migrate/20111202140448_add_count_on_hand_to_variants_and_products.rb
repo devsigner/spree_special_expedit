@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddCountOnHandToVariantsAndProducts < ActiveRecord::Migration
   def self.up
     add_column :variants, :count_on_hand, :integer, :default => 0, :null => false

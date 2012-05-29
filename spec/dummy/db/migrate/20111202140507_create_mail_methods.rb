@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateMailMethods < ActiveRecord::Migration
   def self.up
     create_table :mail_methods do |t|

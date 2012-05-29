@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RemoveTrailingSlashesInTaxonPermalinks < ActiveRecord::Migration
   def self.up
     Taxon.find_each(:conditions => {}) do |t|

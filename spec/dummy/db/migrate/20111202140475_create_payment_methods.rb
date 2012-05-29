@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreatePaymentMethods < ActiveRecord::Migration
   def self.up
     create_table :payment_methods do |t|

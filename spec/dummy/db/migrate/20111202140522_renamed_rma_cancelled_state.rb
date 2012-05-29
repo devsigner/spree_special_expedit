@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class RenamedRmaCancelledState < ActiveRecord::Migration
   def self.up
     ReturnAuthorization.where(:state => 'cancelled').each do |rma|
