@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 namespace :spree_shoppierre do
   desc "Initialise les valeurs par défaut"
   task :set_defaults => :environment do
